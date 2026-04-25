@@ -1,0 +1,3 @@
+# Optional extras for scripts that use XGBoost
+# On macOS you may also need OpenMP: `brew install libomp`
+xgboost>=1.7
