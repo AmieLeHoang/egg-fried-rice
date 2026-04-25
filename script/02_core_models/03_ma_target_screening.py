@@ -1,5 +1,5 @@
 """
-04_ma_target_screening.py
+03_ma_target_screening.py
 
 This script implements a target screening model for M&A deal sourcing, using the BC matrix and financial features to 
 predict which targets are most likely to be chosen by an acquirer in a given year. It trains a ranking model (XGBoost 
@@ -11,7 +11,7 @@ along with their predicted scores and synergy features. This can be used as a pr
 a framework for further analysis and validation of the BC-based synergy measure. 
 
 Usage:
-  python script/02_core_models/04_ma_target_screening.py --acquirer-gvkey 001632 --train-year 2020 --model xgb --top-n 10
+  python script/02_core_models/03_ma_target_screening.py --acquirer-gvkey 001632 --train-year 2020 --model xgb --top-n 10
     (This example trains an XGBoost ranker on 2020 deals for acquirer with gvkey 007257 and outputs the top 10 candidates.)
 
 Input data requirements:
@@ -53,7 +53,7 @@ except ModuleNotFoundError as exc:
                 "  pip install -r requirements-xgboost.txt",
                 "",
                 "Then rerun:",
-                "  python3 04_ma_target_screening.py",
+                "  python3 03_ma_target_screening.py",
             ]
         )
     ) from exc
