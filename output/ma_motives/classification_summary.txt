@@ -1,0 +1,13 @@
+Tech motive counts:
+tech_motive
+UNRELATED        1040
+COMPLEMENTARY     856
+SUBSTITUTE        158
+
+Strategic motive counts:
+strategic_motive
+UNKNOWN                     1014
+VERTICAL_INTEGRATION         849
+HORIZONTAL_CONSOLIDATION     125
+FIRE_SALE                     61
+KILLER_ACQUISITION             5
